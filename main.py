@@ -13,8 +13,11 @@ class MainWindow(QMainWindow):
         
         # CAN bus configuration
         self.can_bus = None
-        self.can_interface = 'socketcan'  # Change to your interface (socketcan, virtual, etc.)
-        self.can_channel = 'can0'         # Change to your channel
+      # For testing without physical CAN hardware:
+        self.can_interface = 'virtual'
+        self.can_channel = 'vcan0'
+  #      self.can_interface = 'socketcan'  # Change to your interface (socketcan, virtual, etc.)
+  #      self.can_channel = 'can0'         # Change to your channel
         
         # Initialize UI
         self.init_ui()
