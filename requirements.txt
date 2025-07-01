@@ -1,3 +1,6 @@
+# Touchscreen and Kivy setup
+kivy[base]>=2.1.0
 python-can>=4.0.0
 cantools>=36.0.0
-kivy[base]>=2.1.0
+evdev>=1.4.0          # Required for precise touch input
+mtcalibrate>=0.2      # Touchscreen calibration tool
