@@ -1,0 +1,13 @@
+{
+  "SPN100": {
+    "description": "Engine Speed",
+    "units": "rpm",
+    "scale": 0.125,
+    "offset": 0,
+    "range": [0, 8031.875]
+  },
+  "FMI2": {
+    "description": "Data Erratic",
+    "severity": "high"
+  }
+}
