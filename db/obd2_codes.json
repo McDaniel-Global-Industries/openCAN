@@ -1,0 +1,7 @@
+{
+  "P0100": {
+    "description": "MAF Circuit Malfunction",
+    "severity": "medium",
+    "repair": ["Check wiring", "Test sensor"]
+  }
+}
