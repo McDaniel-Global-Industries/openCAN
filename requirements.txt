@@ -1,6 +1,5 @@
-# Resistive Touchscreen Essentials
-kivy[base]>=2.2.0
-python-can>=4.0.0
-cantools>=36.0.0
-evdev>=1.4.0
-tslib>=1.22  # Critical for resistive touch calibration
+kivy[base]==2.2.0
+python-can==4.2.2
+cantools==37.1.0
+evdev==1.6.1
+tslib==1.22
