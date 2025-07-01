@@ -27,7 +27,7 @@ class CANDashboard(BoxLayout):
             text='openCAN Dashboard',
             font_size='24sp',
             bold=True,
-            size_hint=(1, 0.2)
+            size_hint=(1, 0.2)_))
         
         self.rpm_label = Label(
             text='RPM: 0',
